@@ -29,7 +29,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000. With no `DATABASE_URL`, a local database is stored in `.data/` and filled with sample members, posts, jobs and news. Delete `.data/` to start fresh.
+Open http://localhost:3000. With no `DATABASE_URL`, a local database is stored in `.data/` with just the demo account. Delete `.data/` to start fresh.
 
 Copy `.env.example` to `.env.local` and fill in keys to turn on the AI Matchmaker and Stripe locally.
 
@@ -65,4 +65,4 @@ Edit `src/db/schema.ts`, then run `npm run db:generate` to create a migration in
 
 ## Sample data
 
-The sample members, posts, jobs and news (e.g. "Summit Ridge Hotels") are fictional and only added to an empty database. Remove them before a real launch.
+Earlier versions added fictional sample members, posts, jobs and news. `npm run db:setup` now removes them (members with `sample.*@example.com` emails) on every deploy; real members are never touched.
