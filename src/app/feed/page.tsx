@@ -85,7 +85,7 @@ export default async function FeedPage({
         {!me.isPremium && (
           <div className="card border-gold bg-gold-light">
             <p className="text-sm font-semibold text-navy">Want to message people directly?</p>
-            <p className="mt-1 text-sm text-stone-700">Premium unlocks messaging and contact info for $6.50/month.</p>
+            <p className="mt-1 text-sm text-stone-700">Premium unlocks messaging and contact info for $10/month.</p>
             <Link href="/upgrade" className="btn-primary mt-3 w-full">Upgrade</Link>
           </div>
         )}

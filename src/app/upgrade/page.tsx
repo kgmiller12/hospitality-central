@@ -17,7 +17,7 @@ export default async function UpgradePage({
         <h1 className="mt-1 font-serif text-3xl font-bold text-navy">
           {me.isPremium ? "You're a Premium member ★" : "Unlock direct connections"}
         </h1>
-        <p className="mt-3 text-4xl font-bold text-navy">$6.50<span className="text-base font-normal text-stone-500"> / month</span></p>
+        <p className="mt-3 text-4xl font-bold text-navy">$10<span className="text-base font-normal text-stone-500"> / month</span></p>
         <ul className="mx-auto mt-6 max-w-xs space-y-2 text-left text-sm">
           <li>💬 Direct message any member</li>
           <li>📇 See contact information on every profile</li>

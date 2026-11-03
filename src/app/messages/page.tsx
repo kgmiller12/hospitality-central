@@ -30,7 +30,7 @@ export default async function MessagesPage() {
       {!me.isPremium && (
         <div className="card mb-5 border-gold bg-gold-light">
           <p className="font-semibold text-navy">🔒 Messaging is a Premium feature</p>
-          <p className="text-sm text-stone-700">You can read messages sent to you, but you need Premium ($6.50/month) to send messages.</p>
+          <p className="text-sm text-stone-700">You can read messages sent to you, but you need Premium ($10/month) to send messages.</p>
           <Link href="/upgrade" className="btn-primary mt-3">Upgrade to Premium</Link>
         </div>
       )}

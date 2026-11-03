@@ -3,7 +3,7 @@ import Stripe from "stripe";
 
 export const stripe = process.env.STRIPE_SECRET_KEY ? new Stripe(process.env.STRIPE_SECRET_KEY) : null;
 
-export const PREMIUM_CENTS = 650;
+export const PREMIUM_CENTS = 1000;
 
 export function appUrl() {
   return (

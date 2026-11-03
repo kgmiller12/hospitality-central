@@ -10,7 +10,7 @@ export const CATEGORIES = [
   "Marketing",
 ] as const;
 
-export const PREMIUM_PRICE = "$6.50";
+export const PREMIUM_PRICE = "$10";
 
 // Suggestions for the school field. Users can still type any school.
 export const SCHOOLS = [

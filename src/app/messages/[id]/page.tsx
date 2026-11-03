@@ -64,7 +64,7 @@ export default async function ThreadPage({ params }: { params: Promise<{ id: str
       ) : (
         <div className="card border-gold bg-gold-light text-center">
           <p className="font-semibold text-navy">🔒 Upgrade to Premium to send messages</p>
-          <Link href="/upgrade" className="btn-primary mt-3">Upgrade for $6.50/month</Link>
+          <Link href="/upgrade" className="btn-primary mt-3">Upgrade for $10/month</Link>
         </div>
       )}
     </div>

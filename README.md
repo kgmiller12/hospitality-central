@@ -16,7 +16,7 @@ The professional network built only for hospitality: connect with hotel and rest
 | 6 | Hospitality news (company accounts can post) | `/news`, `/news/new` |
 | 7 | About the creator | `/about` |
 
-Premium ($6.50/month via Stripe Checkout) unlocks direct messages and contact info.
+Premium ($10/month via Stripe Checkout) unlocks direct messages and contact info.
 
 ## Demo account
 
@@ -57,7 +57,7 @@ Copy `.env.example` to `.env.local` and fill in keys to turn on the AI Matchmake
 
 ### Proving a live $1 charge
 
-Checkout accepts promotion codes. In **live mode**, create a coupon for **$5.50 off, once** and a promotion code for it (e.g. `ONEDOLLAR`). Sign up with a new account, click **Go Premium**, enter the code, and pay with your own card: the first charge is $1.00. Cancel afterwards from the Premium page ("Manage subscription").
+Checkout accepts promotion codes. In **live mode**, create a coupon for **$9.00 off, once** and a promotion code for it (e.g. `ONEDOLLAR`). Sign up with a new account, click **Go Premium**, enter the code, and pay with your own card: the first charge is $1.00. Cancel afterwards from the Premium page ("Manage subscription").
 
 ## Database changes
 

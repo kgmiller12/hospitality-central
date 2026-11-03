@@ -104,7 +104,7 @@ export default async function ProfilePage({ params }: { params: Promise<{ id: st
                   <p>📞 (555) 000-0000</p>
                 </div>
                 <p className="mt-3 text-stone-600">Contact info is visible to Premium members.</p>
-                <Link href="/upgrade" className="btn-gold mt-2 w-full">Unlock for $6.50/mo</Link>
+                <Link href="/upgrade" className="btn-gold mt-2 w-full">Unlock for $10/mo</Link>
               </div>
             )}
           </Section>
